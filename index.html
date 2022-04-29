@@ -1,1 +1,283 @@
-<!Doctype HTML>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cart</title>
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="section">
+        <header>
+          <h1>Shopping Cart</h1>
+          <div class="nav">
+            Homepage / Clothing Categoiries /
+            <span class="underline">My Shopping Cart</span>
+          </div>
+        </header>
+        <div class="row">
+          <div class="left">
+            <div class="info-box">
+              <div class="info-inner">
+                <div class="info-left">
+                  <div class="round counter">a</div>
+                  <div class="info">
+                    <p class="grey">Login</p>
+                    <p class="text">Michel Smith +806-445-4453</p>
+                  </div>
+                </div>
+                <div class="info-right">
+                  <button>Change</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-box">
+              <div class="info-inner">
+                <div class="info-left">
+                  <div class="round counter">b</div>
+                  <div class="info">
+                    <p class="grey">Shipping Address</p>
+                    <p class="text">
+                      Brady Cooper, New Civil Colony, Salt Lake City, Utah
+                      <br />United States, 2971 Avenue
+                    </p>
+                  </div>
+                </div>
+                <div class="info-right">
+                  <button>Change</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-box bg-grey no-border">
+              <div class="info-inner">
+                <div class="info-left">
+                  <div class="round counter black">b</div>
+                  <div class="info">
+                    <p class="grey">PAYMENT METHOD</p>
+                  </div>
+                </div>
+                <div class="info-right">
+                  <!-- empty div -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Debit/Credit Card Payment method  -->
+            <div class="info-box no-border no-padding">
+              <div class="info-inner">
+                <div class="info-left payment">
+                  <div class="round black counter"></div>
+                  <div class="ic-cont">
+                    <img
+                      src="https://raw.githubusercontent.com/std447/A02_Cart_UI/main/assets/images/ic-card.png"
+                      alt="Card"
+                      class="ic"
+                      id="card"
+                    />
+                  </div>
+                  <div class="text">Debit / Credit Card</div>
+                </div>
+                <div class="info-right">
+                  <!-- empty div -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Details of Card -->
+            <div class="info-box no-border no-padding">
+              <div class="info-inner">
+                <div class="info-left">
+                  <div class="counter">
+                    <!-- empty div -->
+                  </div>
+                  <div class="form">
+                    <div class="card name">
+                      <div class="txt">Enter Card Number *</div>
+                      <input type="text" name="card-number" id="card-num" />
+                    </div>
+                    <div class="lin2">
+                      <div class="card-date-outer">
+                        <div class="txt">Valid Date</div>
+                        <div class="select">
+                          <select name="month" id="mon">
+                            <option value="MMMM">MMMM</option>
+                          </select>
+                          <select name="year" id="year">
+                            <option value="YY">YY</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="card cvv">
+                        <div class="txt">CVV *</div>
+                        <input type="text" name="card-cvv" id="card-cvv" />
+                      </div>
+
+                      <div class="button-outer">
+                        <div id="empty">
+                          &nbsp;
+                          <!-- empty div -->
+                        </div>
+                        <div class="button">Pay $117.00</div>
+                      </div>
+                    </div>
+
+                    <div class="footnote txt">
+                      Your card details would be securely saved for faster
+                      payments. Your cvv will not be stored
+                    </div>
+                  </div>
+                </div>
+                <div class="info-right">
+                  <!-- empty div -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Net banking -->
+            <div class="info-box no-border no-padding">
+              <div class="info-inner">
+                <div class="info-left payment">
+                  <div class="round counter"></div>
+                  <div class="ic-cont">
+                    <img
+                      src="https://raw.githubusercontent.com/std447/A02_Cart_UI/main/assets/images/ic-net.png"
+                      alt="Net banking"
+                      class="ic"
+                      id="net"
+                    />
+                  </div>
+                  <div class="text">Net Banking</div>
+                </div>
+                <div class="info-right">
+                  <!-- empty div -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Google/Apple Wallet -->
+            <div class="info-box no-border no-padding">
+              <div class="info-inner">
+                <div class="info-left payment">
+                  <div class="round counter"></div>
+                  <div class="ic-cont">
+                    <img
+                      src="https://raw.githubusercontent.com/std447/A02_Cart_UI/main/assets/images/ic-wallet.png"
+                      alt="Wallet"
+                      class="ic"
+                      id="wallet"
+                    />
+                  </div>
+                  <div class="text">Google / Apple wallet</div>
+                </div>
+                <div class="info-right">
+                  <!-- empty div -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="right-inner">
+              <div class="h3">Your Order</div>
+
+              <div class="cart">
+                <div class="product">
+                  <img
+                    src="https://raw.githubusercontent.com/std447/A02_Cart_UI/main/assets/images/ic-sweater.png"
+                    alt="Sweater"
+                    class="product-img"
+                  />
+                </div>
+
+                <div class="prod-info">
+                  <div class="name">Jeans with Sequins</div>
+
+                  <div class="size-color">
+                    <div class="grey">
+                      Size&nbsp;
+                      <span class="size">XL</span>
+                    </div>
+                    <div class="grey">
+                      Color&nbsp;
+                      <span class="color">Blue</span>
+                    </div>
+                  </div>
+
+                  <div class="price-qty">
+                    <span class="bold">$39.00</span>
+                    &nbsp;x&nbsp;
+                    <span class="grey">01</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cart">
+                <div class="product">
+                  <img
+                    src="https://raw.githubusercontent.com/std447/A02_Cart_UI/main/assets/images/ic-shirt.jpg"
+                    alt="Sweater"
+                    class="product-img"
+                  />
+                </div>
+
+                <div class="prod-info">
+                  <div class="name">Robinson Printed</div>
+
+                  <div class="size-color">
+                    <div class="grey">
+                      Size&nbsp;
+                      <span class="size">XXL</span>
+                    </div>
+                    <div class="grey">
+                      Color&nbsp;
+                      <span class="color">Blue</span>
+                    </div>
+                  </div>
+
+                  <div class="price-qty">
+                    <span class="bold">$29.00</span>
+                    &nbsp;x&nbsp;
+                    <span class="grey">01</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="table">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Delivery</td>
+                      <td> </td>
+                      <td>$20</td>
+                      <td>Express</td>
+                      
+                    </tr>
+                    <tr>
+                      <td>Discount</td>
+                      <td>-</td>
+                      <td>$10</td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                  
+                  <tfoot>
+                    <th colspan="2">Total</th>
+                    <th colspan="2">$117.00</th>
+                  </tfoot>
+                </table>
+                
+
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

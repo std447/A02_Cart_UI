@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Filson";
+  src: url("../fonts/filsson/FilsonProBlack.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: 1% 500%; /* Required by Chrome */
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/poppins-regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: 1% 500%; /* Required by Chrome */
+}
+
+@font-face {
+  font-family: "Sofia";
+  src: url("../fonts/sofiapro/Fonts/sofiapro-light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: 1% 500%; /* Required by Chrome */
+}
